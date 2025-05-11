@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+    --color-misty-blue: #B5C7EB;
+    --color-bold-misty-blue: #94AEE3
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
